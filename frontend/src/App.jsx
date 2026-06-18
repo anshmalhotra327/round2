@@ -179,7 +179,7 @@ export default function App() {
   const [mobileTickets, setMobileTickets] = useState([]);
 
   // API Call helper
-  const API_URL = 'http://127.0.0.1:8000';
+  const API_URL = 'https://round2-6awg.vercel.app/';
 
   useEffect(() => {
     fetchDashboardSummary();
