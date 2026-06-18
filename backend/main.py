@@ -22,7 +22,9 @@ app = FastAPI(title="Smart Parking Enforcement & Traffic Congestion Management A
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://round2-one.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
