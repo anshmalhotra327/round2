@@ -179,7 +179,7 @@ export default function App() {
   const [mobileTickets, setMobileTickets] = useState([]);
 
   // API Call helper
-  const API_URL = 'tranquil-art-production-a8e2.up.railway.app';
+  const API_URL = 'https://tranquil-art-production-a8e2.up.railway.app';
 
   useEffect(() => {
     fetchDashboardSummary();
